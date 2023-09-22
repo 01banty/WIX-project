@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.navbar-logo {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 17px;
+    color: rgb(76, 113, 135);
+}
+
+.container2 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    background-image: url('https://img.freepik.com/free-photo/city-sunset_1127-4143.jpg?w=1060&t=st=1695370202~exp=1695370802~hmac=b5ff8d7438a3978793b0dd6f18efb0954b06e8ea4e700bc516bbfccf68f4586e');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+.container2 h5 {
+    font-size: 50px;
+    color: whitesmoke;
+    margin: 200px 120px;
+}
+
+.container-btn {
+    padding: 23px;
+    background-color: gold;
+    color: aliceblue;
+    border-radius: 3px;
+    margin-left: 45%;
+}
+
+.socials {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.socials i {
+    background-color: #232323;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 50px;
+    padding: 50px;
+    margin-top: 50PX;
+    padding-top: 3%;
+    margin-bottom: auto;
+}
+
+.card {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 5px 5px 5px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
